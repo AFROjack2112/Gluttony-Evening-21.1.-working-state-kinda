@@ -1,0 +1,23 @@
+#canvas, #backgroundImage, #startScreen, #gameOver{
+    background-color: transparent;
+    
+    position:absolute; 
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 888px;
+    height: 500px;
+    border: 5px solid white;
+
+}
+
+
+#backgroundImage, #canvas, #gameOver{
+    display: none;
+}
+
+
+body{
+    background-color: black;
+
+}
