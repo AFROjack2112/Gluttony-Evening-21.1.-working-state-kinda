@@ -205,7 +205,7 @@ class PlayerFigure extends ImageObject {
     jump = () => {
         if (!this.jumping) {
             changeSound('./Audio/jump.mp3')
-
+            this.lastCollisionObstacle = []
             this.jumping = true;
             this.velocityY = -12; // Adjust this value as needed
         }
