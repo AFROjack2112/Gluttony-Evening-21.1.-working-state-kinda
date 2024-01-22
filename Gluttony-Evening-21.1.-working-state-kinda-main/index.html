@@ -1,0 +1,23 @@
+<html lang="de">
+    <body>
+        <div id="gameWrapper" style="position: relative;">
+            <div id="backgroundImage" style="background-image: url('./images/background.jpg'); position:absolute; left:0; top:0; width: 1000px; height: 1000px; background-size: cover;"></div>
+            <canvas id="canvas" width="500" height="500" style="width: 1000px; height: 1000px; position:absolute; left:0; top:0;">
+            </canvas>
+        </div>
+    </body>
+    <script type="module" src="script.js">
+
+    </script>
+    <!-- if you want to use the Mark Rectangle tool,
+    add the following code to your index.html (means.. remove the comment):
+    Usage: Click button to create a new rect. Left click on the rect to position it or to place it.
+    Middle click on a rect to change its size.
+    Right click on a rect to delete it
+    <script type="module" src="./GameHelpers/markRectangle.js"></script>
+    <div id ="markRectInfoContainer" style = "z-index: 3000; position: relative; bottom: 0; top: 1000px; left: 0; right: 0;">
+        <button id="markRectButton" style="position: relative; display: block;">New Mark Rectangle</button>
+        <div id="markRectInfo" style="position: relative; width: 600px; height: 600px;"></div>
+    </div>
+    -->
+</html>
